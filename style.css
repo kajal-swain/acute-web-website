@@ -4,34 +4,68 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Lato', sans-serif;
+}
+
 .container{
    width: 1366px;
    height: 786px;
-   background-color: blue;
    padding-top: 10px;
+   background-image: url(images/1837.png);
+   position: relative;
 }
+.banner{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: url(/images/19691.png);
+
+}
+
 header{
     width: 1366px;
     height: 17px;
-    background-color: red;
-    
+    margin-bottom: 20px;
+    color: white; 
+    padding: 0 20px; 
 }
+
 nav{
     width: 1366px;
-    height: 32px;;
-    background-color: salmon;
+    height: 32px;
+    display: flex;  
+    justify-content: space-between;
+    padding: 0 40px;
 }
+
+.button-group ul{
+    height: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-group>ul>li{
+    padding: 0 10px;
+    list-style: none;
+}
+
 .card{
     margin-left: 139px;
     margin-top: 359px;
     width: 540px;
     height: 253px;
-    background-color: black;
+
 }
+
 .card1{
  width: 540px;
  height: 88px;
- background-color: yellow;
+
  color: var(--unnamed-color-ffffff);
 text-align: left;
 font: normal normal 900 36px/44px Lato;
@@ -39,32 +73,100 @@ letter-spacing: 0px;
 color: #FFFFFF;
 text-shadow: 0px 3px 6px #00000029;
 opacity: 1;
-
 }
+
 .card2{
  width: 514px;
  height: 50px;
  margin-top: 27px;
- background-color: aqua;
  color: var(--unnamed-color-ffffff);
 text-align: left;
 font: normal normal normal 20px/26px Lato;
 letter-spacing: 0px;
 color: #FFFFFF;
 }
-.logbox{
-    margin-left: 40px;
-    width: 32px;
-    height: 32px;
-    background-color: yellow;
-}
- .button{
+
+ .navbutton{
     border: 1px solid white;
+    padding: 11px 25px;
     font-family: 'Playfair Display', serif;
     display: inline-block;
     position: relative;
-    width: 200px;
-    height: 48px;
-    margin-top: 30px;
-    color: #FFFFFF;
- }
+}
+
+button{
+  width: 200px; 
+  height: 48px;
+  margin-top: 40px;
+}
+
+.content{
+  width: 830px;  
+  height: 39px;
+  margin: auto;
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 830px;
+}
+
+.content p{
+    font-size: 32px;
+    font-family: lato;
+}
+.box{
+    width: 904px;
+    height: 149px;
+    
+    margin: auto;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  margin-top: 30px;
+  padding: 10px;
+  font-family: 'Lato', sans-serif;
+}
+
+.box p {
+text-align: center;
+}
+.services{
+    width: 1287px;
+    height: 620px;
+    margin-top: 100px;
+    background-color: aqua;
+    display: flex;
+    
+    
+}
+.card3{
+    width: 50%;
+    height: 100%;
+    background-color: yellow;
+    text-align: center;
+}
+.card4{
+    width: 50%;
+    height: 100%;
+    background-color: green;
+}
+ h1{
+    font-size: 48px;
+    color: black;
+    
+    
+}
+.design-box{
+    width: 504px;
+    height: 115px;
+    text-align: left;
+    margin-left: 79px;
+    background-color: blue;
+}
+header i{
+padding-left: 20px;
+}
+
+
