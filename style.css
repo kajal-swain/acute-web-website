@@ -9,12 +9,14 @@ body{
 }
 
 .container{
-   width: 1366px;
+   width: 100%;
    height: 786px;
    padding-top: 10px;
    background-image: url(images/1837.png);
    position: relative;
+
 }
+
 .banner{
     position: absolute;
     top: 0;
@@ -26,7 +28,7 @@ body{
 }
 
 header{
-    width: 1366px;
+    width: 100%;
     height: 17px;
     margin-bottom: 20px;
     color: white; 
@@ -34,7 +36,7 @@ header{
 }
 
 nav{
-    width: 1366px;
+    width: 100%;
     height: 32px;
     display: flex;  
     justify-content: space-between;
@@ -98,10 +100,11 @@ button{
   width: 200px; 
   height: 48px;
   margin-top: 40px;
+  margin-left: 20px;
 }
 
 .content{
-  width: 830px;  
+  width: 100%;  
   height: 39px;
   margin: auto;
   margin-top: 60px;
@@ -118,7 +121,6 @@ button{
 .box{
     width: 904px;
     height: 149px;
-    
     margin: auto;
     display: flex;
   align-items: center;
@@ -133,7 +135,7 @@ button{
 text-align: center;
 }
 .services{
-    width: 1287px;
+    width: 100%;
     height: 620px;
     margin-top: 100px;
     background-color: aqua;
@@ -168,5 +170,14 @@ text-align: center;
 header i{
 padding-left: 20px;
 }
-
-
+.card4 img{
+    height: 100%;
+    width: 100%;
+}
+.box1{
+    width: 604px;
+    height: 112px;
+    background-color: blue;
+    margin-top: 30px;
+    margin-left: 79px;
+}
