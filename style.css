@@ -69,7 +69,7 @@ nav{
  height: 88px;
 
  color: var(--unnamed-color-ffffff);
-text-align: left;
+ text-align: left;
 font: normal normal 900 36px/44px Lato;
 letter-spacing: 0px;
 color: #FFFFFF;
@@ -82,7 +82,7 @@ opacity: 1;
  height: 50px;
  margin-top: 27px;
  color: var(--unnamed-color-ffffff);
-text-align: left;
+ text-align: left;
 font: normal normal normal 20px/26px Lato;
 letter-spacing: 0px;
 color: #FFFFFF;
@@ -96,7 +96,7 @@ color: #FFFFFF;
     position: relative;
 }
 
-button{
+.btn-1{
   width: 200px; 
   height: 48px;
   margin-top: 40px;
@@ -119,26 +119,26 @@ button{
     font-family: lato;
 }
 .box{
-    width: 904px;
+    width:904px;
     height: 149px;
     margin: auto;
     display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 20px;
-  margin-top: 30px;
-  padding: 10px;
-  font-family: 'Lato', sans-serif;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    margin-top: 30px;
+    padding: 10px;
+    font-family: 'Lato', sans-serif;
 }
 
 .box p {
 text-align: center;
 }
 .services{
-    width: 100%;
+    width: 1287px;
     height: 620px;
     margin-top: 100px;
-    background-color: aqua;
+    
     display: flex;
     
     
@@ -146,16 +146,15 @@ text-align: center;
 .card3{
     width: 50%;
     height: 100%;
-    background-color: yellow;
     text-align: center;
 }
 .card4{
     width: 50%;
     height: 100%;
-    background-color: green;
+    
 }
  h1{
-    font-size: 48px;
+    font-size: 40px;
     color: black;
     
     
@@ -164,8 +163,8 @@ text-align: center;
     width: 504px;
     height: 115px;
     text-align: left;
-    margin-left: 79px;
-    background-color: blue;
+    padding-left: 79px;
+    
 }
 header i{
 padding-left: 20px;
@@ -177,7 +176,49 @@ padding-left: 20px;
 .box1{
     width: 604px;
     height: 112px;
-    background-color: blue;
+    
     margin-top: 30px;
-    margin-left: 79px;
+    padding-left: 79px;
 }
+.box1 p{
+    text-align: left;
+}
+.card5{
+    margin: auto;
+    width: 75%;
+    margin-top: 20px;
+    
+    
+    
+}
+
+table {
+    width: 100%;
+    float: left;
+}
+td{ 
+    text-align: left;
+    padding: 15px 0px;
+
+    align-items: center;
+}
+.mybutton{
+    width: 200px;
+    height:48px;
+    background-color: blue;
+    float: left;
+    margin-left: 79px;
+    margin-top: 20px;
+}
+.section-2{
+    width: 100%;
+    height: 720px;
+    
+    margin-top: 62px;
+}
+.section-2 img{
+    height: 100%;
+    width: 100%;
+    padding: 0;
+}
+
